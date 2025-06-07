@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.rm2pt.sample.basicfamily.metamodel.editor;singl
+ eton:=true
+Automatic-Module-Name: org.rm2pt.sample.basicfamily.metamodel.editor
+Bundle-Version: 1.0.0.202505260923
+Bundle-ClassPath: .
+Bundle-Activator: org.rm2pt.sample.basicfamily.metamodel.basicfamily.pre
+ sentation.BasicfamilyEditorPlugin$Implementation
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: org.rm2pt.sample.basicfamily.metamodel.basicfamily.prese
+ ntation
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources;visi
+ bility:=reexport,org.rm2pt.sample.basicfamily.metamodel.edit;visibility
+ :=reexport,org.eclipse.emf.ecore.xmi;visibility:=reexport,org.eclipse.e
+ mf.edit.ui;visibility:=reexport,org.eclipse.ui.ide;visibility:=reexport
+Bundle-ActivationPolicy: lazy
+

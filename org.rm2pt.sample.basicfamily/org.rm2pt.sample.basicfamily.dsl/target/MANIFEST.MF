@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.rm2pt.sample.basicfamily.dsl
+Bundle-ManifestVersion: 2
+Bundle-Name: org.rm2pt.sample.basicfamily.dsl
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.202505260923
+Bundle-SymbolicName: org.rm2pt.sample.basicfamily.dsl; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.rm2pt.sample.basicfamily.metamodel,org.eclipse.xtext
+ ,org.eclipse.xtext.xbase,org.eclipse.equinox.common;bundle-version="3.5
+ .0",org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",org.eclipse.xte
+ xt.util,org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.rm2pt.sample.basicfamily,org.rm2pt.sample.basicfamil
+ y.services,org.rm2pt.sample.basicfamily.parser.antlr.internal,org.rm2pt
+ .sample.basicfamily.validation,org.rm2pt.sample.basicfamily.parser.antl
+ r,org.rm2pt.sample.basicfamily.scoping,org.rm2pt.sample.basicfamily.ser
+ ializer,org.rm2pt.sample.basicfamily.generator
+Import-Package: org.apache.log4j
+
